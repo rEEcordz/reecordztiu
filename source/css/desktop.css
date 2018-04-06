@@ -32,6 +32,10 @@
         #entrypage h1{
             font-size: 50px;
     }
+    #entrypage img{
+        margin: auto;
+        padding: 5px 35%;
+}
 }
 
 @media screen and (min-width: 1050px) {
