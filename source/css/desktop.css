@@ -1,0 +1,72 @@
+@media screen and (min-width: 500px) {
+
+
+    .desktop {
+      position: relative;
+    }
+
+    nav{
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.22);
+
+    }
+    nav a {
+      color: black;
+    }
+
+      .desktop {
+        display: inline-flex;
+
+      }
+      .desktop a {
+        margin-left: 30px;
+      }
+
+      .hid {
+        display: none;
+      }
+
+      footer{
+        box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.22);
+
+      }
+}
+
+@media screen and (min-width: 1050px) {
+
+      .desktop,nav,p,h1,h2,h3{
+        margin: auto;
+        width: 60%;
+      }
+
+      p{
+        font-size: 20px;
+      }
+      .bgimage1, .bgimage2, .bgimage3 {
+
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 800px;
+
+      }
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .productimg{
+        width: 60%;
+        padding: 10px 20%;
+      }
+      #authorimg{
+        padding: 10px 20%;
+      }
+
+
+}
