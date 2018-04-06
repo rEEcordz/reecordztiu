@@ -68,5 +68,7 @@
         padding: 10px 20%;
       }
 
-
+    #entrypage h1{
+        font-size: 50px;
+    }
 }
